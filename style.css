@@ -1,0 +1,157 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header {
+    background-color: #1f2937;
+    color: white;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 140px;
+}
+
+#header-logo {
+    margin: 0;
+}
+
+#header-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 16px;
+}
+
+#header-content {
+    display: flex;
+    margin: 72px 140px ;
+    gap: 32px;
+}
+
+#header-content img {
+    height: 175px;
+    width: 375px;
+    flex-shrink: 0;
+}
+
+#advert-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#advert-message {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+#advert-sign-up {
+    background-color:#3882f6;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    padding: 4px 16px;
+    margin: 8px 0px;
+    font-weight: bold;
+}
+
+#content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+#services-container {
+    padding-bottom: 64px;
+    padding-top: 32px;
+}
+
+#services-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 32px;
+}
+
+#services-content {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.service-panel {
+    width: 185px;
+}
+
+.service-img {
+    height: 175px;
+    width: 175px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+}
+
+.service-text {
+    text-align: center;
+}
+
+#quote-container {
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+#quote-author {
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 32px;
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+#signup-container {
+    padding: 100px;
+}
+
+#blue-box {
+    background-color: #3882f6;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    color: white;
+}
+
+#blue-box button {
+    background-color:#3882f6;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    padding: 0px 16px;
+}
+
+#footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 12px;
+    padding: 16px;
+}
